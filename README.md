@@ -16,5 +16,5 @@ Technologies:
 
 How to run it
 --------------
-* clone this repo by typing `git clone`,
+* clone this repo by typing `git clone`
 * run index.html
