@@ -1,0 +1,112 @@
+body {
+    height: 100vh;
+    overflow-y: hidden;
+    color: #113A66;
+    font-family: 'Roboto', sans-serif;
+}
+
+.modal {
+    border-radius: 0.4rem;
+    box-shadow: 0 0 0.5rem grey;
+    max-width: 50%;
+    margin: 20rem auto; 
+    position: fixed; 
+    overflow-y: scroll;
+    top: 0; right: 0; bottom: 0; left: 0; 
+    z-index: 1;
+    background-color: #F0F2F5;
+    font-size: 0.9rem;
+}
+
+h1 {
+    text-align: center;
+    margin-left: 0.7rem;
+    font-size: 3rem;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    padding: 0.5rem 0 0.5rem 2rem;
+    display: flex;
+    align-items: center;
+}
+
+li:nth-child(even) { 
+    background-color:rgb(214, 216, 219); 
+}
+
+.vendor-name {
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    position: absolute;
+    right: 20rem;
+}
+
+.checkbox {
+    cursor: pointer;
+    margin-right: 0.5rem;
+}
+
+form {
+    position: absolute;
+    right: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+button {
+    border: none;
+    border-radius: 3rem;
+    padding: 0.7rem 2.2rem;
+    margin-left: 0.7rem;
+    background-color: #113A66;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.acc-btn:hover {
+    background-color: rgb(22, 77, 10);
+    transition: 0.4s ease;
+}
+
+.rej-btn:hover {
+    background-color: #8B0000;
+    transition: 0.4s ease;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.body-overflow {
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 0.7rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 0.6rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
